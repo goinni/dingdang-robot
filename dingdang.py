@@ -67,7 +67,7 @@ class Dingdang(object):
     def run(self):
         salutation = (u"%s，我能为您做什么?" % config.get("first_name", u'主人'))
 
-        persona = config.get("robot_name", 'DINGDANG')
+        persona = config.get("robot_name", 'HUIMEIJINGLING')
         conversation = Conversation(persona, self.mic)
 
         # create wechat robot
