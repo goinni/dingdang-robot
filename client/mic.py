@@ -33,7 +33,7 @@ class Mic:
         acive_stt_engine -- performs STT while Dingdang is in active listen
                             mode
         """
-        self.robot_name = config.get('robot_name_cn', u'叮当')
+        self.robot_name = config.get('robot_name_cn', u'惠每精灵')
         self._logger = logging.getLogger(__name__)
         self.speaker = speaker
         self.wxbot = None
