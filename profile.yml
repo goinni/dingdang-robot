@@ -11,17 +11,17 @@ wechat: true
 # 当微信发送语音时，是直接播放语音还是执行语音命令？
 # true：直接播放
 # false：执行语音命令（只支持百度STT，其他两种STT识别不准）
-wechat_echo: true
+wechat_echo: false
 
 # 除了自己之外，还能响应 echo 指令的好友微信名单
 # 如果填写 ['ALL'] 表示响应所有微信好友
 # 如果填写 [] 表示不响应任何好友
-wechat_echo_text_friends: []
+wechat_echo_text_friends: ['ALL']
 
 # 除了自己之外，还能直接播放语音的好友微信名单
 # 如果填写 ['ALL'] 表示播放所有微信好友的语音
 # 如果填写 [] 表示不播放任何好友的语音
-wechat_echo_voice_friends: []
+wechat_echo_voice_friends: ['ALL']
 
 # 当有邮件时，是否朗读邮件标题
 read_email_title: true
