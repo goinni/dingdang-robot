@@ -213,6 +213,10 @@ speak_ip:
 cleancache:
     enable: true
 
+# 惠每小梅
+hmxiaomei:
+    enable: true
+
 # 聚合新闻
 headline_news:
     enable: true
