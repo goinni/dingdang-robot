@@ -558,7 +558,7 @@ class SnowboySTT(AbstractSTTEngine):
                 dingdangpath.LIB_PATH, 'snowboy/dingdang.pmdl')
         if 'sensitivity' not in profile:
             profile['sensitivity'] = "0.5"
-        profile['hotword'] = config.get('hotword', 'DINGDANG')
+        profile['hotword'] = config.get('hotword', 'HUIMEIJINGLING')
 
         return profile
 

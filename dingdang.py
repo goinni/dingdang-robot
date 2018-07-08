@@ -119,7 +119,7 @@ if __name__ == "__main__":
         logger.setLevel(logging.INFO)
 
     if not args.no_network_check and not diagnose.check_network_connection():
-        logger.warning("Network not connected. This may prevent Dingdang " +
+        logger.warning("Network not connected. This may prevent HUIMEIJINGLING " +
                        "from running properly.")
 
     if args.diagnose:
